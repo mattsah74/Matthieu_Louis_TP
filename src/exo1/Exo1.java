@@ -2,8 +2,6 @@
  * TP0 Excercice 1 
  * Matthieu Sahinidis   
  * Septembre 2021
- * pénis
- * de tes morts
  */
 
 package exo1;
