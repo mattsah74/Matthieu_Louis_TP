@@ -2,6 +2,8 @@
  * TP0 Excercice 1 
  * Matthieu Sahinidis   
  * Septembre 2021
+ * ça va mon pote à la compote
+ * shame on you
  */
 
 package exo1;
