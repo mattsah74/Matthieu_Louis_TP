@@ -1,8 +1,8 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package manipnombresint_sahinidis_marquet;
+package tp1;
 
 import java.util.Scanner;
 
@@ -10,12 +10,8 @@ import java.util.Scanner;
  *
  * @author matth
  */
-public class ManipNombresInt_Sahinidis_Marquet {
+public class TP1_exo1 {
 
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         int nb1, nb2 ;
         System.out.println("Rentrez le premier nombre: ");
@@ -31,9 +27,4 @@ public class ManipNombresInt_Sahinidis_Marquet {
         System.out.println("Le quotient entier de "+nb1+" et de "+nb2+" est: "+(nb1/nb2));
         System.out.println("Et le reste de la DE est: "+(nb1%nb2));
     }
-    
 }
-
- 
-
-
