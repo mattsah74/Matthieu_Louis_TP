@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author matth
  */
-public class TP1_exo1 {
+public class ManipNombresInt_Sahinidis_Marquet {
 
     public static void main(String[] args) {
         int nb1, nb2 ;
