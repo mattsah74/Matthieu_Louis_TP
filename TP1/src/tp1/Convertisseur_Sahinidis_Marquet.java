@@ -21,7 +21,7 @@ public class Convertisseur_Sahinidis_Marquet {
         val = sc.nextDouble();
         val1=val;
         System.out.println("Saisissez la conversion que vous souhaitez :");
-        System.out.println("1.Celsius to kelvin \n2.Kelvin to Celsius \n3.Kelvin to Fahrenheit \n4.Fahrenheit to Kelvin \n5.Fahrenheit to Celsius \n6.Celsius to Fahrenheit");
+        System.out.println("1)Celsius to kelvin \n2)Kelvin to Celsius \n3)Kelvin to Fahrenheit \n4)Fahrenheit to Kelvin \n5)Fahrenheit to Celsius \n6)Celsius to Fahrenheit");
         ch = sc.nextInt();
         if (ch==1) {
             ch1 = "Celsius";
@@ -60,6 +60,9 @@ public class Convertisseur_Sahinidis_Marquet {
             ch2 ="Fahrenheit";
             temp = val;
             val = ((temp*9)/5.0)+32;
+        }
+        else {
+            System.out.println("Je n'ai pas compris votre demande veuillez relancer le programme en selectionnant le numero de la conversion voulue");
         }
         System.out.print(val1+" degres ");
         System.out.print(ch1);
