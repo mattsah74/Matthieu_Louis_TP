@@ -8,7 +8,7 @@ package tp1;
  *
  * @author matth
  */
-public class TP1_exo2 {
+public class Convertisseur_Sahinidis_Marquet {
 
 
 }
