@@ -17,7 +17,7 @@ public class ManipNombresInt_Sahinidis_Marquet {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int nb1, nb2;
+        int nb1, nb2 ;
         System.out.println("Rentrez le premier nombre: ");
         Scanner sc;
         sc = new Scanner(System.in);
@@ -27,9 +27,9 @@ public class ManipNombresInt_Sahinidis_Marquet {
         System.out.println("Vos nombres sont le: "+nb1+" et le  "+nb2);
         System.out.println("La somme des deux est: "+(nb1+nb2));
         System.out.println("La difference des deux est: "+(nb1-nb2));
-        System.out.println("La produit des deux est: "+(nb1*nb2));
-        
-        System.out.println("La somme des deux est: "+(nb1+nb2));
+        System.out.println("Le produit des deux est: "+(nb1*nb2));
+        System.out.println("Le quotient entier de "+nb1+" et de "+nb2+" est: "+(nb1/nb2));
+        System.out.println("Et le reste de la DE est: "+(nb1%nb2));
     }
     
 }
